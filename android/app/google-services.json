@@ -1,13 +1,52 @@
 {
   "project_info": {
-    "project_number": "653026383061",
-    "project_id": "tracking-app-61dee",
-    "storage_bucket": "tracking-app-61dee.firebasestorage.app"
+    "project_number": "358889392218",
+    "firebase_url": "https://flowery-5f3a6-default-rtdb.firebaseio.com",
+    "project_id": "flowery-5f3a6",
+    "storage_bucket": "flowery-5f3a6.firebasestorage.app"
   },
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:653026383061:android:30d9469a242b44d3f9be5c",
+        "mobilesdk_app_id": "1:358889392218:android:3a0cf0d5886b7417bf7063",
+        "android_client_info": {
+          "package_name": "com.example.flower_e_commerce_app"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDANxPvIjBlJJQLZ3zaz2xJQhpddSKXBbM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:358889392218:android:22a04a303cb6371abf7063",
+        "android_client_info": {
+          "package_name": "com.example.flower_e_commerce_app.dev"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDANxPvIjBlJJQLZ3zaz2xJQhpddSKXBbM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:358889392218:android:f06577e0d859f60ebf7063",
         "android_client_info": {
           "package_name": "com.example.flowery_tracking_app"
         }
@@ -15,7 +54,7 @@
       "oauth_client": [],
       "api_key": [
         {
-          "current_key": "AIzaSyDD2afZ8jaTeqBiWWbumUYFB9dJXKJErvQ"
+          "current_key": "AIzaSyDANxPvIjBlJJQLZ3zaz2xJQhpddSKXBbM"
         }
       ],
       "services": {
