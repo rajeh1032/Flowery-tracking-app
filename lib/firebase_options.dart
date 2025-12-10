@@ -17,10 +17,7 @@ import 'package:flutter/foundation.dart'
 class DefaultFirebaseOptions {
   static FirebaseOptions get currentPlatform {
     if (kIsWeb) {
-      throw UnsupportedError(
-        'DefaultFirebaseOptions have not been configured for web - '
-        'you can reconfigure this by running the FlutterFire CLI again.',
-      );
+      return web;
     }
     switch (defaultTargetPlatform) {
       case TargetPlatform.android:
@@ -50,19 +47,33 @@ class DefaultFirebaseOptions {
   }
 
   static const FirebaseOptions android = FirebaseOptions(
-    apiKey: 'AIzaSyDD2afZ8jaTeqBiWWbumUYFB9dJXKJErvQ',
-    appId: '1:653026383061:android:30d9469a242b44d3f9be5c',
-    messagingSenderId: '653026383061',
-    projectId: 'tracking-app-61dee',
-    storageBucket: 'tracking-app-61dee.firebasestorage.app',
+    apiKey: 'AIzaSyDANxPvIjBlJJQLZ3zaz2xJQhpddSKXBbM',
+    appId: '1:358889392218:android:f06577e0d859f60ebf7063',
+    messagingSenderId: '358889392218',
+    projectId: 'flowery-5f3a6',
+    databaseURL: 'https://flowery-5f3a6-default-rtdb.firebaseio.com',
+    storageBucket: 'flowery-5f3a6.firebasestorage.app',
   );
 
   static const FirebaseOptions ios = FirebaseOptions(
-    apiKey: 'AIzaSyCbNpwnYH5avtokTBxJX1MJcWW-mRuvkow',
-    appId: '1:653026383061:ios:4873c5bd316351eff9be5c',
-    messagingSenderId: '653026383061',
-    projectId: 'tracking-app-61dee',
-    storageBucket: 'tracking-app-61dee.firebasestorage.app',
+    apiKey: 'AIzaSyD6LBA36Dl_qKFKtPSoCj2SMDwStnc8JoQ',
+    appId: '1:358889392218:ios:5297b7a17417bea3bf7063',
+    messagingSenderId: '358889392218',
+    projectId: 'flowery-5f3a6',
+    databaseURL: 'https://flowery-5f3a6-default-rtdb.firebaseio.com',
+    storageBucket: 'flowery-5f3a6.firebasestorage.app',
     iosBundleId: 'com.example.floweryTrackingApp',
   );
+
+  static const FirebaseOptions web = FirebaseOptions(
+    apiKey: 'AIzaSyDKbc5K-neVHKcve9jGprTUpTtT-d_VaEk',
+    appId: '1:358889392218:web:4598ad9bc7ce09ffbf7063',
+    messagingSenderId: '358889392218',
+    projectId: 'flowery-5f3a6',
+    authDomain: 'flowery-5f3a6.firebaseapp.com',
+    databaseURL: 'https://flowery-5f3a6-default-rtdb.firebaseio.com',
+    storageBucket: 'flowery-5f3a6.firebasestorage.app',
+    measurementId: 'G-S6412SJC68',
+  );
+
 }
